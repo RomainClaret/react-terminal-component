@@ -1,6 +1,6 @@
 {
-  "name": "react-terminal-component",
-  "version": "1.5.0",
+  "name": "react-terminal",
+  "version": "0.1.0",
   "description": "React component that renders a terminal emulator",
   "main": "lib/react-terminal-component.js",
   "scripts": {
@@ -13,26 +13,6 @@
     "artifact:test-coverage": "nyc --reporter=html yarn run test",
     "artifact:storybook": "build-storybook -c .storybook -o .storybook_output",
     "build-storybook": "build-storybook"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rohanchandra/react-terminal-component.git"
-  },
-  "keywords": [
-    "terminal",
-    "emulation"
-  ],
-  "author": "Rohan Chandra",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rohanchandra/react-terminal-component/issues"
-  },
-  "homepage": "https://github.com/rohanchandra/react-terminal-component",
-  "nyc": {
-    "exclude": [
-      "test",
-      "lib"
-    ]
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -64,7 +44,7 @@
     "yargs": "^13.2.4"
   },
   "dependencies": {
-    "javascript-terminal": "^1.0.3",
+    "js-terminal": "file:../js-terminal",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {

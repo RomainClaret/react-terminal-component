@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { storiesOf } from '@storybook/react';
-import {EmulatorState} from 'javascript-terminal';
+import {EmulatorState} from 'js-terminal';
 import ReactTerminalStateless from 'ReactTerminalStateless';
 
 class StatelessTerminalWrapper extends Component {

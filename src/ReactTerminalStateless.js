@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { ThemeProvider } from 'styled-components';
 import {
   Emulator, HistoryKeyboardPlugin, EmulatorState
-} from 'javascript-terminal';
+} from 'js-terminal';
 import defaultTheme from 'themes/default';
 import CommandInput from 'input/CommandInput';
 import OutputList from 'OutputList';

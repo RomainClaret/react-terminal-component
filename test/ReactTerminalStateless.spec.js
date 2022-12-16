@@ -2,7 +2,7 @@ import chai from 'chai';
 import React from 'react';
 import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import {EmulatorState} from 'javascript-terminal';
+import {EmulatorState} from 'js-terminal';
 import ReactTerminalStateless from 'ReactTerminalStateless';
 
 describe('ReactTerminalStateless', () => {

@@ -6,7 +6,7 @@ import ReactOutputRenderers from 'output';
 import {
   CommandMapping, OutputFactory, EmulatorState,
   defaultCommandMapping
-} from 'javascript-terminal';
+} from 'js-terminal';
 
 const PAPER_TYPE = 'paper';
 

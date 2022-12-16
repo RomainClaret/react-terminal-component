@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   EmulatorState, OutputFactory, Outputs
-} from 'javascript-terminal';
+} from 'js-terminal';
 import { storiesOf } from '@storybook/react';
 import ReactTerminal from 'ReactTerminal';
 

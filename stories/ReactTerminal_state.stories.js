@@ -6,7 +6,7 @@ import {
   EmulatorState, OutputFactory, CommandMapping,
   EnvironmentVariables, FileSystem, History,
   Outputs, defaultCommandMapping
-} from 'javascript-terminal';
+} from 'js-terminal';
 
 storiesOf('ReactTerminal - Emulator State', module)
   .add('with custom file system', () => {

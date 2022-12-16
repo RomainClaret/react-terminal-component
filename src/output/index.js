@@ -1,4 +1,4 @@
-import { OutputType } from 'javascript-terminal';
+import { OutputType } from 'js-terminal';
 import TextOutput from 'output/TextOutput';
 import TextErrorOutput from 'output/TextErrorOutput';
 import HeaderOutput from 'output/HeaderOutput';
